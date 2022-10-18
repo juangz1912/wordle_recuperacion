@@ -66,7 +66,6 @@ while menu:
             palabra2 = Queue()
 
             palabraU = Queue()
-            letraU = Queue()
             intentos = 0
 
 
