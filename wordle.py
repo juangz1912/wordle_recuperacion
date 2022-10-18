@@ -35,7 +35,7 @@ reset = Style.RESET_ALL
 
 palabras = ["PLATO", "ARBOL", "BOLSO", "BLUSA", "ANDES", "ANIMO", "CAJAS", "CHILE", "CUBOS", "CLAVO", "FUMAR", "MANGO",
             "PATOS", "JAPON", "MINAR", "MINAS", "PESOS", "PECES", "MUROS", "MULAS", "MULTA", "PUMAS", "PRADO", "SUDAR",
-            "CIEGO", "SIRIA", "SEDAN", "VACAS", "VIAJE", "ICONO", "VOTOS", "VINOS", "ATOMO", "TOMAR", "BEBER",
+            "CIEGO", "SIRIA", "SEDAN", "PERRO", "VIAJE", "ICONO", "VOTOS", "VINOS", "ATOMO", "TOMAR", "BEBER",
             "BEBES"]  # 36 palabras
 
 menu = True
@@ -72,6 +72,7 @@ while menu:
 
             cont = 7
             while intentos < 6:
+                print(palabraAleatoria)
                 cont += -1
                 print("Tienes", int(cont), "intentos")
                 palabrausuario = ""
