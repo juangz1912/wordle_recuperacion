@@ -16,6 +16,7 @@ class Queue:
       raise Exception("Cola vacía...")
     return self.queue.pop(0)
 
+
   def first(self):
     if(self.is_empty()):
       raise Exception("Cola vacía...")
@@ -183,7 +184,7 @@ while menu:
                         if colores[0] == 1:
                             pass
                         else:
-                            colores[0] = 2
+                            colores[4] = 2
                         palabra1.dequeue()
                         break
                     else:
