@@ -134,6 +134,7 @@ while menu:
                 while not palabra1.is_empty():
                     palabra2.enqueue(palabra1.dequeue())
 
+                # Letra en la posicion 1
                 while not palabra2.is_empty():
                     if palabra2.first() == palabraU.first():
                         if colores[1] == 1:
@@ -149,6 +150,7 @@ while menu:
                 while not palabra2.is_empty():
                     palabra1.enqueue(palabra2.dequeue())
 
+                # Letra en la posicion 2
                 while not palabra1.is_empty():
                     if palabra1.first() == palabraU.first():
                         if colores[2] == 1:
@@ -164,6 +166,7 @@ while menu:
                 while not palabra1.is_empty():
                     palabra2.enqueue(palabra1.dequeue())
 
+                # Letra en la posicion 3
                 while not palabra2.is_empty():
                     if palabra2.first() == palabraU.first():
                         if colores[3] == 1:
@@ -179,9 +182,10 @@ while menu:
                 while not palabra2.is_empty():
                     palabra1.enqueue(palabra2.dequeue())
 
+                #Letra en la posicion 4
                 while not palabra1.is_empty():
                     if palabra1.first() == palabraU.first():
-                        if colores[0] == 1:
+                        if colores[4] == 1:
                             pass
                         else:
                             colores[4] = 2
